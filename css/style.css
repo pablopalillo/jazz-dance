@@ -1,0 +1,276 @@
+/** global **/
+@font-face {
+    font-family: 'Roboto Regular';
+    src: './fonts/Roboto-Regular.ttf';
+    font-weight: 400
+}
+
+
+* {
+    font-family: 'Roboto Regular', Arial, Helvetica, sans-serif;
+}
+
+
+
+/*logo*/
+
+nav {
+    background-color: #480A0A;
+}
+
+.logo {
+    width: 130px;
+    height: 50px;
+    margin: 5px;
+}
+
+#page-container {
+    min-height: 83.6vh;
+    margin-top: 10px;
+    width: 85%;
+}
+
+#page-container .contaner-header {
+    margin-bottom: 10px;
+}
+/**/
+/*header*/
+.page-title {
+    color: #f44336;
+    font-size: 1.64rem;
+}
+
+.contaner-header .breadcrumb-container {
+    margin-top: 23px;
+
+}
+
+.page-title.breadcrumb:before {
+    color: #000000;
+}
+
+.page-title.breadcrumb:last-child {
+    color: #000000;
+}
+
+.button-user {
+    margin-top: 17px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.button-user:hover {
+    background-color: transparent;
+}
+
+.button-user i {
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+.button-user span {
+    font-size: 10px;
+    text-transform: none;
+}
+/**/
+/*row 1*/
+
+.row .join-card {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+.card-cambio {
+    margin: 2px;
+}
+
+.card-change .card-change1 {
+    border-top: none;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.card-header {
+    position: relative;
+}
+
+.on-live-container {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background-color: #f1dadf;
+    padding: 0 5px;
+    border-radius: 15px;
+}
+
+.on-live   {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background-color: red;
+    border-radius: 30px;
+    vertical-align: middle;
+}
+
+.on-live-text {
+    font-size: 10px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.card-container {
+    margin: 0 10px;
+    min-height: 120px;
+    max-height: 120px;
+}
+
+.card-container .card-container-header {
+    margin-bottom: 0;
+}
+
+.join-card .card-title, .card-class .card-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.join-card .subheading, .card-class .subheading  {
+    font-size: 14px;
+    color: #484748;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.join-card .card-text {
+    font-size: 12px;
+    margin: 5px 0;
+    height: 50px;
+}
+
+.card-class .class-text {
+
+    font-size: 12px;
+    margin: 5px 0;
+    height: 50px;
+    overflow: hidden;
+}
+
+
+.card-class.card {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+/**/
+/*footer*/
+
+footer {
+    position: relative;
+    bottom: 0;
+    padding: 5px;
+    font-size: 12px;
+    /** height: 30px; **/
+    background-color: #480A0A;
+    color: white;
+}
+
+.footer-color2 {
+    color: #D0D3D4;
+}
+/*botones*/
+
+.container {
+    border-top: none;
+}
+
+.btn-small {
+    background-color: #480A0A;
+}
+
+.button-enter:hover,
+.button-enter a:hover {
+    background-color: #7B241C;
+}
+/**/
+/**/
+/**/
+/*pagina*/
+
+.video {
+    border: none;
+    margin-top: 10px;
+}
+/*cambio button*/
+
+.play-icon,
+.play-icon i {
+    color: black;
+}
+
+a {
+    margin-right: 0;
+}
+
+.change-icon {
+    font-size: 70px;
+    margin-top: 25px;
+}
+
+
+.play-icon:hover,
+.play-icon i:hover {
+    color: #616161;
+}
+/*text*/
+
+.align-text {
+    margin-left: 10px;
+}
+
+.action {
+    text-decoration: underline;
+    color: #E74C3C;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.header-letter {
+    margin-top: 20px;
+}
+
+.header-letter span {
+    font-size: 20px;
+}
+
+.date-class, .calendar-icon {
+    font-size: 12px;
+}
+
+.calendar-icon {
+    font-size: 16px;
+}
+
+.date-class, .container .section i {
+    vertical-align: text-top;
+}
+/* Medium and up */
+
+@media screen and (min-width: 600px) {
+    .video-container {
+        height: 510px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .button-user span {
+        font-size: 0;
+    }
+}
