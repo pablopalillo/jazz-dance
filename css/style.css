@@ -1,15 +1,20 @@
 /** global **/
+
 @font-face {
     font-family: "Roboto Regular";
     src: "./fonts/Roboto-Regular.ttf";
     font-weight: 400;
 }
 
-
-*, body {
+*,
+body {
     font-family: "Roboto Regular", Arial, Helvetica, sans-serif;
 }
 
+.card-header .responsive-img {
+    width: 100%;
+    height: 133px;
+}
 
 
 /*logo*/
@@ -33,8 +38,13 @@ nav {
 #page-container .contaner-header {
     margin-bottom: 10px;
 }
+
+
 /**/
+
+
 /*header*/
+
 .page-title {
     color: #f44336;
     font-size: 1.64rem;
@@ -42,7 +52,6 @@ nav {
 
 .contaner-header .breadcrumb-container {
     margin-top: 23px;
-
 }
 
 .page-title.breadcrumb:before {
@@ -72,7 +81,11 @@ nav {
     font-size: 10px;
     text-transform: none;
 }
+
+
 /**/
+
+
 /*row 1*/
 
 .row .join-card {
@@ -105,7 +118,7 @@ nav {
     border-radius: 15px;
 }
 
-.on-live   {
+.on-live {
     display: inline-block;
     width: 7px;
     height: 7px;
@@ -130,7 +143,8 @@ nav {
     margin-bottom: 0;
 }
 
-.join-card .card-title, .card-class .card-title {
+.join-card .card-title,
+.card-class .card-title {
     font-size: 16px;
     font-weight: bold;
     margin-top: 0;
@@ -138,7 +152,8 @@ nav {
     line-height: 1.5;
 }
 
-.join-card .subheading, .card-class .subheading  {
+.join-card .subheading,
+.card-class .subheading {
     font-size: 14px;
     color: #484748;
     margin-top: 0;
@@ -153,13 +168,11 @@ nav {
 }
 
 .card-class .class-text {
-
     font-size: 12px;
     margin: 5px 0;
     height: 50px;
     overflow: hidden;
 }
-
 
 .card-class.card {
     margin-top: 10px;
@@ -168,8 +181,9 @@ nav {
 }
 
 
-
 /**/
+
+
 /*footer*/
 
 footer {
@@ -185,6 +199,8 @@ footer {
 .footer-color2 {
     color: #D0D3D4;
 }
+
+
 /*botones*/
 
 .container {
@@ -199,15 +215,25 @@ footer {
 .button-enter a:hover {
     background-color: #7B241C;
 }
+
+
 /**/
+
+
 /**/
+
+
 /**/
+
+
 /*pagina*/
 
 .video {
     border: none;
     margin-top: 10px;
 }
+
+
 /*cambio button*/
 
 .play-icon,
@@ -224,11 +250,12 @@ a {
     margin-top: 25px;
 }
 
-
 .play-icon:hover,
 .play-icon i:hover {
     color: #616161;
 }
+
+
 /*text*/
 
 .align-text {
@@ -250,7 +277,8 @@ a {
     font-size: 20px;
 }
 
-.date-class, .calendar-icon {
+.date-class,
+.calendar-icon {
     font-size: 12px;
 }
 
@@ -258,9 +286,12 @@ a {
     font-size: 16px;
 }
 
-.date-class, .container .section i {
+.date-class,
+.container .section i {
     vertical-align: text-top;
 }
+
+
 /* Medium and up */
 
 @media screen and (min-width: 600px) {
